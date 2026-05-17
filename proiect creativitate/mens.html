@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men's Collection | ICEMAN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled">
+    <a href="index.html" class="logo">ICEMAN</a>
+    <div class="nav-links">
+      <div class="dropdown">
+        <a href="mens.html">Men</a>
+        <div class="dropdown-content">
+          <a href="mens.html?category=Rings">Rings</a>
+          <a href="mens.html?category=Necklaces">Necklaces</a>
+          <a href="mens.html?category=Bracelets">Bracelets</a>
+          <a href="mens.html?category=Earrings">Earrings</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="womens.html">Women</a>
+        <div class="dropdown-content">
+          <a href="womens.html?category=Rings">Rings</a>
+          <a href="womens.html?category=Necklaces">Necklaces</a>
+          <a href="womens.html?category=Bracelets">Bracelets</a>
+          <a href="womens.html?category=Earrings">Earrings</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-icons">
+      <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+      <a href="cart.html"><svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg></a>
+    </div>
+  </nav>
+
+  <header class="page-header fade-in">
+    <h1 class="page-title">Men's Collection</h1>
+    <p style="color: var(--color-text-muted); max-width: 600px; margin: 0 auto;">Bold, uncompromising, and flawlessly brilliant. Discover our exclusive range of men's moissanite jewelry.</p>
+  </header>
+
+  <section class="section fade-in delay-1">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 2rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 1rem;">
+      <div>Showing 6 Products</div>
+      <div>
+        <select style="background: transparent; color: var(--color-text); border: 1px solid var(--glass-border); padding: 0.5rem; font-family: var(--font-body);">
+          <option>Sort by: Featured</option>
+          <option>Price: Low to High</option>
+          <option>Price: High to Low</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card" onclick="window.location.href='product.html?id=obsidian-cuban-link'">
+        <div class="product-img-wrapper">
+          <img src="assets/mens_1.jpg" alt="The Obsidian Cuban Link">
+          <div class="quick-view">Quick View</div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Necklaces</div>
+          <div class="product-name">The Obsidian Cuban Link</div>
+          <div class="product-price">€250</div>
+        </div>
+      </div>
+      <div class="product-card" onclick="window.location.href='product.html?id=tennis-bracelet-m'">
+        <div class="product-img-wrapper">
+          <img src="assets/mens_2.jpg" alt="Iced Out Tennis Bracelet">
+          <div class="quick-view">Quick View</div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Bracelets</div>
+          <div class="product-name">Iced Out Tennis Bracelet</div>
+          <div class="product-price">€210</div>
+        </div>
+      </div>
+      <div class="product-card" onclick="window.location.href='product.html?id=platinum-signet-ring'">
+        <div class="product-img-wrapper">
+          <img src="assets/mens_3.jpg" alt="Platinum Signet Ring">
+          <div class="quick-view">Quick View</div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Rings</div>
+          <div class="product-name">Platinum Signet Ring</div>
+          <div class="product-price">€240</div>
+        </div>
+      </div>
+      <div class="product-card" onclick="window.location.href='product.html?id=moissanite-studs'">
+        <div class="product-img-wrapper">
+          <img src="assets/mens_4.jpg" alt="VVS1 Moissanite Studs">
+          <div class="quick-view">Quick View</div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Earrings</div>
+          <div class="product-name">VVS1 Moissanite Studs</div>
+          <div class="product-price">€220</div>
+        </div>
+      </div>
+      <div class="product-card" onclick="window.location.href='product.html?id=cuban-bracelet'">
+        <div class="product-img-wrapper">
+          <img src="assets/mens_5.jpg" alt="Heavy Cuban Bracelet">
+          <div class="quick-view">Quick View</div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Bracelets</div>
+          <div class="product-name">Heavy Cuban Bracelet</div>
+          <div class="product-price">€260</div>
+        </div>
+      </div>
+      <div class="product-card" onclick="window.location.href='product.html?id=pinky-ring'">
+        <div class="product-img-wrapper">
+          <img src="assets/mens_6.jpg" alt="Iced Out Pinky Ring">
+          <div class="quick-view">Quick View</div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Rings</div>
+          <div class="product-name">Iced Out Pinky Ring</div>
+          <div class="product-price">€290</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 1rem; color: var(--color-platinum);">ICEMAN</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.9rem;">Brilliance Redefined.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
